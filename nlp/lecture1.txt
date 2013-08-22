@@ -1,0 +1,19 @@
+NLP == computational lingistics
+(mostly equal to)
+
+NLP is asking the machine to reason with text.
+
+Things we want it to do:
+1.  Translate oral notes to text -> grab structured data from notes -> produce analytical and narrative summary of the data.
+2.  Summarize evidence and precedents in court cases.
+3.  Better identification of interesting scientific papers.
+  - May be interested in cell death in plants, but also want to know about molecules that appear during cell death.  Want to know if those molecules can autofluoresce yellow.
+4.  Better automated translation of text.  
+5.  Better human computer interaction with robots taking care of us.  
+
+High level issues:
+-  Involves text interpretation with explicit and implicit semantics.
+-  And they involve reasoning with that knowledge (background and in text).
+Machinery/low level issues:
+-  Understand the meaning of texts of different sizes.
+-  Recognize and define what it means to be similar.
