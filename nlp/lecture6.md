@@ -2,7 +2,7 @@
 # n-grams and POS stagging
 (parts of speech)
 
-## n-grams
+# n-grams
 
 The fundamental problem an n-gram tries to answer is: If I have a sequence of words, what is the next word going to be?
 
@@ -139,5 +139,48 @@ PP(W) = P(w1* w2 * ... wn) ^ (-1/N)
 Perplexity decreases as length of n-gram increases.
 
 
+# POS tagging
+
+Parts-of-speech tagging.
+<w1, w2, ..., wn> -> <t1, t2, ..., tn>
+
+Basic ways we can handle ambiguity:
+1. Use morphology
+Set of rules to determine POS.
+Through observation of rules, induce rules from language.  Still need to be able to handle ambiguous cases.
+Ex: book
+- We booked the crook.
+  - We can tell here because of the morphology (ed)
+- Book him.
+  - We need syntactic analysis to determine meaning here.
+- the brown book is on the table.
+  - We can see adjective before book and verb after, so we can determine it is a noun.
+
+2. Hidden Markov Model (HMM)
+Find correct classification of words.  (mapping between words -> tags)
+Suppose we didn't have any info, just a pile of sequences.  And we randomly assigned tags to all of the words in all of the sequences.  Then we asked if we have any info in our back pocket that would give us an idea of what the relationships are between the words and the tags.  The stuff in our back pocket is a training set.  Tagged or verified by humans.  Can use as a training set to refine the randomly assigned tags.
+
+Now the relationship between words and tags may be a probability.
+
+We want to maximize the probability of a sequence of tags given a sequence of words.  BUT, with data sparsity, we can't do this so we must estimate.  
+Maximize P(tags from 1 to n | words from 1 to n)
+
+Estimated by t from 1 to n = f(t1w) = argmax P(t from 1 to n | w from 1 to n)
+
+Bayes theorem!  All your Bayes are belong to us.
+P(something) = P(thing | something) * P(thing) / P(universe)
+
+So = argmax P(w1 to wn) * P(t1 to tn)
+Let P(t1 to tn) be the 'prior probabilities'
+Let P(w1 to wn) be the 'likelihoods'
+
+So the approximation is argmax of the product from i = 1 to n of P(wi|ti) * P(ti|ti-1)
+
+If we have a dataset we can train the machine on, then we can let it learn all of the probabilities.
+
+3. Brill tagger
+Another tagger that learns transformations.
+
+Transformative tagger where we go from word to tag.  So we just apply whatever rules we happen to have. Let it learn and do its thing.
 
 
