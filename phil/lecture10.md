@@ -55,3 +55,7 @@ When W says our current language is okay, he is saying that we could solve these
 
 
 There's a place in the Tractatus where W says "If you're looking at Logic and you want to go off in the world, you're on the wrong track."  That's early W as opposed to late W who wants you to look and see.
+
+Late W still thinks language could use improvement, but he thinks we could do stuff to become more aware of the ambiguities and how to avoid them.  
+
+
