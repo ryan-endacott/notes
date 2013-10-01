@@ -54,3 +54,4 @@ Early W and late W both see problems in languages.  Monk is good in quoting W's 
 When W says our current language is okay, he is saying that we could solve these problems in English by refining our English.  Later W gets more interested in understanding how complex language is, and how many different kinds of jobs language does.
 
 
+There's a place in the Tractatus where W says "If you're looking at Logic and you want to go off in the world, you're on the wrong track."  That's early W as opposed to late W who wants you to look and see.
