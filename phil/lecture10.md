@@ -59,3 +59,4 @@ There's a place in the Tractatus where W says "If you're looking at Logic and yo
 Late W still thinks language could use improvement, but he thinks we could do stuff to become more aware of the ambiguities and how to avoid them.  
 
 
+The world in its totality is just facts.  So when W begins the Tractatus with the claim "The world is the totality of facts." none of those propositions would be in the world book because none is a factual claim about how particular things are in the world.  If the measure of making sense is in the world book, those opening props of the tractatus are nonsense. 
