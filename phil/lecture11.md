@@ -35,6 +35,14 @@ This spot is blue, so it cannot be red.  Which suddenly has to do with colors, s
 
 If you're one height, you cannot be another height.  So some heights exclude other heights.  So it became clear to W that impossibility is not just a logical matter, it is a part of the world.  Because it can depend on colors, heights, etc, all stuff in the world.
 
+
+p or not p is always, necessarily true.  It is a tautology.
+p and not p is always, necessarily false.  It is a contradiction.
+
+If some propositions are by their very form are always true or always false.  And in between are propositions which can be true or false, you have a logical scheme for impossibility, necessary truth, and possibility.  So logic says some propositions are necessarily true, some propositions are necessarily false, and some can be true or false.  That expresses W's idea of necessary truth, necessary falsity, and possible truth. That is the logic of propositions stated as simply as possible, and it tells you that necessary truth and necessary falsity have to do with the structure of a proposition, not its content.  Notice that no particular factual claims have been made.  But the notions of necessity truth or necessity, necessary falsehood or impossibility, or possible truth have been made clear.  If I make a claim about colors.  In addition to logical impossibility, you need a concept of factual impossibility.  Ex: Two colors in same place.  No longer just logic.  It is about logic and color (or content of the world).
+
 ## I'll teach you differences!
 
 ## The world is all that is the case [facts, facts, and more facts]
+
+
