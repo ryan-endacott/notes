@@ -53,6 +53,14 @@ The other thing a good god does is when he gives us beliefs that have applicatio
 So now we have a tripartite conformity.  I have these math ideas because god gave them to me.  He is a good god who wouldn't mess with me.  They lead me to think of a physical world.  Good god would create that world.  Therefore I must conclude that math is true in the sense that it is given to me by god and it conforms to god's volitions.  And math truths correspond to a physical world that is mathematically describable.  So there is a second way in which it is true.
 
 
+Math is psychologically indubitable.  But whether or not it is true remains as a question.  But the question that remains is does it conform to good god and physical world.  We have to distinguish between indubitability vs truth.
+
+
+Two notions of truth:
+- physical world conformity
+- good god conformity
+
+
 ## Dreaming vs waking
 
 He does say that he cannot distinguish whether he is awake or asleep.  And he does go on to say that he is going to suppose he is asleep.  I don't think he says he is asleep because of the difficulty of the situation.  He doesn't conclude he is sleeping b/c he can't distinguish b/w waking and sleeping.  He assumes he is sleeping because he wants to know what things he can know even if he is sleeping.
