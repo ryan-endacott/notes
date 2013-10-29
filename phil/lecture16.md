@@ -111,3 +111,12 @@ Modern philosophy a course that covers 1600-1800.
 ----------------------------------------------------------------------------
 
 
+
+
+Read third meditation.
+Key points:
+- He is unsure whether bodies exist.
+- Descartes has achieved a certainty in second meditation, but it isn't a certainty that Descartes finds sufficient for his foundations for a new science. He comes to think that in addition, he must prove that a good god exists. He will tell us that and tell us why he must prove so.
+- At the end of the first meditation, Descartes speaks about the indubitability of arithmetic and geometry and the dubitability of arithmetic and geometry on the other hand.  On the one hand, Descartes will say that he just can't think that 2+3 is anything but 5.  He cannot imagine anything different.  If there is a demon though, he could bring it about that Descartes has to think that incorrect assumption.  One one hand there is a compulsion to believe arithmetic and geometry and on the other hand there is doubt there because of a demon.  We will see that same tension, which is related to the tension in the 2nd meditation between saying we see the same wax as if we do so and our discovering of it.  None would judge otherwise, but we could also all be wrong.
+- He is going to say what gives him certainty is that he can be face to face with something.  And when he is perceiving it and not deceived then he can be sure what he sees is what he sees it to be.  He cannot turn off the ideas and images inside him.  They provide a source of certainty, but they are not sufficient for the certainty he eventually wants.
+
