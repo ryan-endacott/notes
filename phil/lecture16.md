@@ -129,6 +129,4 @@ Descartes wants to say whatever verb he uses, it may not actually be there.
 - Perceive
 - Conceive
 
-
-
-
+He conceives and perceives arithmetic and geometry clearly and distinctly, but he doubts them nonetheless.
