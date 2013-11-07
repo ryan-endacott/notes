@@ -1,6 +1,7 @@
 
 Test Thursday before Thanksgiving.
 
+Read first two chapters of strawson.
 
 # Descartes 4th and 5th meditation
 
