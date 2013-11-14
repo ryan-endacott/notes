@@ -69,6 +69,12 @@ Strawson says we go between different perspectives.  He isn't trying to avoid ta
 
 
 
+For the test:
+Descartes chapters 1 - 5
+Mostly 1-3, look over notes from day I missed
+Strawson preface, 1, and 2
+All essay or short answer plus essay.
 
 
 
+Final is limited cumulative.  Diminished comprehensive.
