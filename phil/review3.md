@@ -63,3 +63,10 @@ Body qualities:
 - mutable,
 
 
+
+
+
+On the test....:
+- Descartes meditations 1 - 5.5
+- Synopsis Descarte that was emailed to us
+- Strawson first two chapters and preface
