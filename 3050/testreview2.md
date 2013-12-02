@@ -31,6 +31,8 @@ All operations
 - Deletion
 - Sequence of insertion/deletion
 
+Know the figure in the book.  If you know the figure, you know all of the cases.  Deletion is on page 329.  Insertion is on page 317.
+
 No pseudocode, just know execution and cases, etc.
 
 Types of Question:
