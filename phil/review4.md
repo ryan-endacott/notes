@@ -17,3 +17,7 @@ Chapter 1 and 2
 
 ## Nagel
 Chapter 1 and 2
+
+## Test Format
+All essays or some essays along with short answer questions.
+
