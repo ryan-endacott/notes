@@ -72,5 +72,8 @@ So jump 8 bytes down with program counter.
 branch to itself (infinite loop):
 `LOOP BRA LOOP`
 
+Important: When will the offset be added to the program counter?
+
+
 
 
