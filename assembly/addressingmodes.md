@@ -70,6 +70,7 @@ branch instruction: opcode + 1-byte signed (2's comp) offset
 So jump 8 bytes down with program counter.
 
 branch to itself (infinite loop):
-LOOP BRA LOOP
+`LOOP BRA LOOP`
+
 
 
