@@ -1,3 +1,5 @@
+# Types of function calls
+
 
 ```
 
@@ -10,3 +12,7 @@ SUB TSX
     INY     adjust return address
     STY 0,X  update return address on stack
     RTS
+
+
+```
+
