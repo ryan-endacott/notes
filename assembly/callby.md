@@ -1,8 +1,8 @@
 # Types of function calls
 
+## Call-by-value over program memory after JSR
 
-
-# Call-by-value over program memory
+Without pulling off the stack:
 ```
   JSR SUB
   FCB 5
@@ -17,7 +17,7 @@ SUB TSX
 
 ```
 
-# Call-by-reference in register (X/Y, not D)
+## Call-by-reference in register (X/Y, not D)
 
 ```
       ORG $B000
@@ -33,8 +33,7 @@ SUB   LDAA 0,X get data
 
 ```
 
-
-# Call-by-reference over the stack
+## Call-by-reference over the stack
 
 ```
 
@@ -54,7 +53,26 @@ SUB   PULY get return address
       RTS
 ```
 
+## Call-by-reference in program memory after JSR
+
+With pulling off the stack:
+```
+      ORG $B000
+DATA  FCB 5
+
+      ORG $C000
+      JSR SUB
+      FDB DATA
+
+SUB   PULX get return address
+      LDY 0,X get data address
+      LDAA  0,Y get data
+      INX  * LDAB #2
+      INX   adjust return address * ABX  X += 2
+      PSHX  put return address back on stack
+      RTS
+```
 
 
-
+Without pulling off the stack:
 
