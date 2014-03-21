@@ -101,5 +101,11 @@ WHILE   LDAB  0,X   get table item in B register
         STAB  0,Y   store back in result
         INX         next item in table
         BRA   WHILE
-ENDWL
+ENDWL   TSY         get stack addr
+        LDX   0,Y   get return addr
+        LDAB  #4
+        ABX         add 4 to return address
+        STX   0,Y   update return addr on stack
+        RTS
 ```
+
