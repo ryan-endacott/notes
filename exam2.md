@@ -30,12 +30,12 @@ LABEL L1
 (JMP0 R, DEFAULT) // jump to label default if R is 0
 
   (MULT Y, 8, R) // Sets R to y * 8
-  (ADD Y, R, R) // Sets R to y + r
-  (SUB R, X, Y) // Sets Y to R - X
+  (ADDI Y, R, R) // Sets R to y + r
+  (SUBI R, X, Y) // Sets Y to R - X
   (JMP CASEEND)
 
 LABEL DEFAULT
-  (ADD X, 1, X) // x := x + 1
+  (ADDI X, 1, X) // x := x + 1
 
 LABEL CASEEND
 
@@ -47,23 +47,45 @@ Problem for giving intermediate representation for fibonacci
 
 ```
 LABEL FIB_L
-SET UP ACTIVATION FIB_L
+SET UP ACTIVATION FIB_L containing stuff below on stack:
+- Value of R1 (temporaries must be on the memory)
+- Value of R
+- old frame pointer (stack pointer points here)
+- old stack pointer
+- return label (address)
+- value of x (frame pointer points here)
+6*4 = 24 bytes for each function call.
+
 
 (GT X, 2, R)
 (JMP0, R, ELSE_LABEL)
-  (SUB X, 1, R)
+  (SUBI X, 1, R)
   PARAM R
   CALL FIB_L, 1 // passing one param, that is what the 1 means
   (MOV R, RV) // store return value in R so it isn't lost
-  (SUB X, 2, R1) // make new param
+  (SUBI X, 2, R1) // make new param
   PARAM R1
   CALL FIB_L, 1
-  (ADD RV, R, RV)
+  (ADDI RV, R, RV)
 
 LABEL ELSE_LABEL
   (MOV RV, 1)
 RETURN
 
+
+// Main to call fib
+LABEL MAIN_LABEL
+PARAM 4
+CALL FIB_L, 1
+(MOV Y, RV) y := return value
+RETURN
 ```
+
+Activation record is dynamic.  So is heap, but we will not be asked about it.
+Stack and heap are dynamic.  Activation record is put on stack.
+
+Static memory for fib:
+- No global variables
+- Y is in static memory
 
 
