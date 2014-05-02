@@ -12,3 +12,7 @@ BRING BOOK (or instruction list, presumably)
 4.  Subroutine given; come up with the calling program with correct parameter passing (HW4-2, HW5-2)
 5.  Write main program and subroutine with correct parameter passing (HW4-3)
 
+
+
+A page block size is 4k
+
