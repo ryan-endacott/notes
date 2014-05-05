@@ -26,3 +26,5 @@ Don't know pseudocode, but you do need to know how it works. Mostly executing th
 
 At least one question is from the homework.
 
+No proofs, mostly short answer and some execution of algorithms.
+
